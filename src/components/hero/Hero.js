@@ -8,9 +8,9 @@ const Hero = ({title, info, url, btn, buy}) => {
             <div className='hero__content'>
                 <h2>{title}</h2>
                 <p>{info}</p>
-            <div className='info'>
-                <button className='learn-btn'>{btn}</button>
-                <button className='buy-btn'>{buy}</button>
+            <div className='global-btn'>
+                <button className='global-learn-btn'>{btn}</button>
+                <button className='global-buy-btn'>{buy}</button>
             </div>
             </div>
         </div>

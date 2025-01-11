@@ -21,32 +21,4 @@
             margin-bottom: 31px;
         }
     }
-    .info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
-        .learn-btn {
-            padding: 12px 22px;
-            cursor: pointer;
-            background-color: #0071E3;
-            color: #fff;
-            font-size: 16px;
-            font-weight: 400;
-            border-radius: 30px;
-            border: none;
-            outline: none;
-            transition: .3s;
-            &:active {
-                transform: scale(.9);
-            }
-        }
-        .buy-btn {
-            padding: 12px 22px;
-            border-radius: 30px;
-            border: 1px solid #0071E3;
-            background-color: transparent;
-            color: #fff;
-        }
-    }
 }
