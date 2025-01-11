@@ -1,0 +1,52 @@
+.hero {
+    height: 692px;
+    position: relative;
+    padding-top: 55px;
+    .hero__content {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #F5F5F7;
+        text-align: center;
+        h2 {
+            font-size: 51px;
+            line-height: 60px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            margin-bottom: 31px;
+        }
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        .learn-btn {
+            padding: 12px 22px;
+            cursor: pointer;
+            background-color: #0071E3;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            border-radius: 30px;
+            border: none;
+            outline: none;
+            transition: .3s;
+            &:active {
+                transform: scale(.9);
+            }
+        }
+        .buy-btn {
+            padding: 12px 22px;
+            border-radius: 30px;
+            border: 1px solid #0071E3;
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+}
