@@ -1,0 +1,18 @@
+.header {
+    background-color: #161617CC;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 44px;
+        .navbar__collection {
+            display: flex; 
+            align-items: center;
+            gap: 19px;
+            word-break: keep-all;
+            .navbar__item {
+                color: #FFFFFFCC;
+            }
+        }
+    }
+}
